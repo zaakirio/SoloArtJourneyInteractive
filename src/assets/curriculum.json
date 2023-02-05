@@ -1,0 +1,102 @@
+[
+    {
+        "title": "Figure Drawing I",
+        "body": [
+            {
+                "video": {
+                    "title": "Gesture Drawing - Proko Figure Drawing Fundamentals",
+                    "url": "https://www.youtube.com/watch?v=74HR59yFZ7Y&list=PLtG4P3lq8RHGuMuprDarMz_Y9Fbw_d2ws"
+                },
+                "reading": {
+                    "title": "Figure drawing for all it's worth - Andrew Loomis",
+                    "url": "https://illustrationage.files.wordpress.com/2013/04/andrew-loomis-figure-drawing-for-all-its-worth.pdf"
+                },
+                "challenge": {
+                    "title": "30 Days of Gesture Drawing",
+                    "url": "https://drawabox.com/lesson/250boxes"
+                }
+            }
+        ],
+        "term": 1
+    },
+    {
+        "title": "Perspective I",
+        "body": [
+            {
+                "video": {
+                    "title": "Drawabox.com Lessons",
+                    "url": "https://drawabox.com/lesson/0"
+                },
+                "reading": {
+                    "title": "Figure drawing for all it's worth - Andrew Loomis",
+                    "url": "https://illustrationage.files.wordpress.com/2013/04/andrew-loomis-figure-drawing-for-all-its-worth.pdf"
+                },
+                "challenge": {
+                    "title": "Drawabox 250 box challenge",
+                    "url": "https://drawabox.com/lesson/250boxes"
+                }
+            }
+        ],
+        "term": 1
+    },
+    {
+        "title": "Composition & Storytelling I",
+        "body": [
+            {
+                "video": {
+                    "title": "Composition I - moderndayjames",
+                    "url": "https://www.youtube.com/watch?v=wg-So3ElA8g"
+                },
+                "reading": {
+                    "title": "Framed Ink - Marcos Mateu-Mestre",
+                    "url": "https://kupdf.net/download/marcos-mateu-mestre-framed-ink-drawing-and-comp-pdf_632bc1b4e2b6f5a34831551e_pdf"
+                },
+                "challenge": {
+                    "title": "Iterative Drawing Challenge ( 5 compositions 10x)",
+                    "url": "https://www.youtube.com/watch?v=k0ufz75UvHs"
+                }
+            }
+        ],
+        "term": 1
+    },
+        {
+        "title": "Anatomy I - The Head",
+        "body": [
+            {
+                "video": {
+                    "title": "Proko: The Loomis Method",
+                    "url": "https://www.youtube.com/watch?v=wAOldLWIDSM"
+                },
+                "reading": {
+                    "title": "Figure drawing for Artists: making Every Mark Count",
+                    "url": "https://www.pdfdrive.com/figure-drawing-for-artists-making-every-mark-count-e194702327.html"
+                },
+                "challenge": {
+                    "title": "100 Heads Challenge - Ahmed Aldoori",
+                    "url": "https://www.youtube.com/watch?v=0A_kQsxeeTE"
+                }
+            }
+        ],
+        "term": 2
+    },
+            {
+        "title": "Perspective II",
+        "body": [
+            {
+                "video": {
+                    "title": "Perspective - moderndayjames",
+                    "url": "https://www.youtube.com/watch?v=nAlCyQqEZSU&list=PLgKJMTFp_25iQVZ6ItpZKTSN9Yo44YSTs&index=7"
+                },
+                "reading": {
+                    "title": "Drawabox.com Lessons",
+                    "url": "https://drawabox.com/lesson/4"
+                },
+                "challenge": {
+                    "title": "Drawabox 100 Treasure Chest Challenge",
+                    "url": "https://drawabox.com/"
+                }
+            }
+        ],
+        "term": 2
+    }
+]

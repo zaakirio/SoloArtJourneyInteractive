@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Curriculum from "./components/CurriculumCard";
+import { Course } from './interfaces/Curriculum';
+import curriculumjson from './assets/curriculum.json'
+import { ThemeProvider } from '@material-ui/core'
+import { createTheme } from '@material-ui/core/styles'
+import DarkModeIcon from '@mui/icons-material/DarkMode';
 
-function App() {
+const App: React.FC = () => {
+
+  let courses: Course[] = JSON.parse(JSON.stringify(curriculumjson));
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div style={{backgroundColor:"beige" ,width:"100vw",height:"100vh"}}>
+        {courses.map(course =>
+          <Curriculum title={course.title} body={course.body} term={course.term} />
+        )
+        }
+        </div>
   );
-}
+};
 
 export default App;
