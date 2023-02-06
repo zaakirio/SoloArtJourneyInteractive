@@ -26,10 +26,14 @@ const App: React.FC = () => {
       <Grid style={{ margin: 20 }}>
         <Typography>After being inspired by RadioRunner and Brendan Meachen, I have decided to create an interactive version of the curriculum to track my journey </Typography>
       </Grid>
+                  <div className="CardPickerContainer">
+      <Grid container spacing={0}>
       {courses.map(course =>
         <Curriculum title={course.title} body={course.body} term={course.term} />
       )
       }
+      </Grid>
+      </div>
     </Grid>
   );
 };
