@@ -1,8 +1,6 @@
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import React, { useState } from "react";
 import { Course } from "../interfaces/Curriculum";
@@ -10,13 +8,9 @@ import { CardMedia, Checkbox, CircularProgress, Divider, FormControlLabel, FormG
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 import AutoStoriesIcon from '@mui/icons-material/AutoStories';
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
-import { Favorite, FavoriteBorder } from '@mui/icons-material';
-import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
-import BookmarkIcon from '@mui/icons-material/Bookmark';
 import FlagIcon from '@mui/icons-material/Flag';
 import FlagOutlinedIcon from '@mui/icons-material/FlagOutlined';
 
-import DvrOutlinedIcon from '@mui/icons-material/DvrOutlined';
 import DoneOutlineIcon from '@mui/icons-material/DoneOutline';
 import DoneIcon from '@mui/icons-material/Done';
 

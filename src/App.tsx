@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Curriculum from "./components/CurriculumCard";
 import { Course } from './interfaces/Curriculum';
 import curriculumjson from './assets/curriculum.json'
-import { Grid, ThemeProvider, Typography } from '@material-ui/core'
+import { Grid, Typography } from '@material-ui/core'
 
 const App: React.FC = () => {
 
