@@ -19,12 +19,13 @@ const App: React.FC = () => {
       justifyContent="center"
     >
       <Grid style={{ margin: 20 }}>
-        <Typography variant="h4">
-          <strong>Solo Artist Journey Tracker</strong>
-        </Typography>
+        <h1>
+          <strong>Solo Artist Journey Tracker </strong>
+        </h1>
+
       </Grid>
       <Grid style={{ margin: 20 }}>
-        <Typography>After being inspired by RadioRunner and Brendan Meachen, I have decided to create an interactive version of the curriculum to track my journey </Typography>
+        <div style={{fontSize:"18px"}}>After being inspired by RadioRunner and Brendan Meachen, I have decided to create an interactive version of the curriculum to track my journey </div>
       </Grid>
                   <div className="CardPickerContainer">
       <Grid container spacing={0}>

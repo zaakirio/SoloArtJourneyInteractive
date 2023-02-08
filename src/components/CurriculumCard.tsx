@@ -42,83 +42,81 @@ const Curriculum: React.FC<Course> = ({ title, body, term }) => {
   };
 
   const celebrate = () => {
-    return currentSum === 100 ? <ConfettiExplosion /> : <></>
+    return currentSum === 100 ? <ConfettiExplosion duration={2100}  particleSize={17}/> : <></>
   }
 
   return (
-    <div>
+                <><div>
       {celebrate()}
-      <Card style={{ margin: "25px", border: "solid 2px", boxShadow: "13px 10px", width: "400px" }}>
-        <CardContent>
-          <Grid container>
-            <Grid item xs>
-              <Typography sx={{ fontSize: 14, }} color="text.secondary" gutterBottom>
-                Term {term}
-              </Typography>
-              <Typography style={{ fontWeight: "600", fontSize: "20px" }}>
-                {title}
-              </Typography>
-              <Box sx={{ position: 'relative', display: 'inline-flex', paddingTop: '25px' }}>
-                <CircularProgress variant="determinate" value={progress} style={{ color: "maroon", paddingLeft: "20px" }} size="4.5rem" />
-                <Box
-                  sx={{
-                    top: 10,
-                    left: 2.5,
-                    bottom: 0,
-                    right: 0,
-                    position: 'absolute',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                  }}
-                >
-                  <Typography
-                    variant="caption"
-                    component="div"
-                    color="black"
-                    style={{ fontSize: "20px" }}
-                  >{progress}</Typography>
-                </Box>
-              </Box>
-            </Grid>
+    </div><div>
 
-            <Grid item>
-              <Typography color="text.secondary">
-                Track Progress
-              </Typography>
-              {progressTitles.map((title, index) => {
-                return (
-                  <Tooltip arrow title={title} componentsProps={blackArrowStyle}>
-                    <Checkbox style={{ color: "green" }} icon={<DoneOutlineIcon />} checkedIcon={<DoneIcon />} checked={checkedState[index]} onChange={() => handleOnChange(index)} />
-                  </Tooltip>
-                );
-              })}
-              <Tooltip arrow title="Finish Challenge" componentsProps={blackArrowStyle}>
-                <Checkbox style={{ color: "brown" }} icon={<FlagOutlinedIcon />} checkedIcon={<FlagIcon />} checked={checkedState[3]} onChange={() => handleOnChange(3)} />
-              </Tooltip>
-              <Typography color="text.secondary" style={{ paddingTop: "10px" }}>
-                Resources
-              </Typography>
-              <Tooltip title={body[0].video.title} componentsProps={blackArrowStyle} arrow={true}>
-                <IconButton href={body[0].video.url} target={"_blank"}>
-                  <PlayCircleOutlineIcon />
-                </IconButton>
-              </Tooltip>
-              <Tooltip title={body[0].reading.title} componentsProps={blackArrowStyle} arrow={true} >
-                <IconButton href={body[0].reading.url} target={"_blank"}>
-                  <AutoStoriesIcon />
-                </IconButton>
-              </Tooltip>
-              <Tooltip title={body[0].challenge.title} componentsProps={blackArrowStyle}>
-                <IconButton href={body[0].challenge.url} target={"_blank"}>
-                  <TrendingUpIcon />
-                </IconButton>
-              </Tooltip>
+        <Card style={{ margin: "25px", border: "solid 2px", boxShadow: "13px 10px", width: "400px", height: "250px" }}>
+          <CardContent>
+            <Grid container>
+              <Grid item xs>
+                Term {term}
+                <div style={{ fontWeight: "600", fontSize: "20px" }}>
+                  {title}
+                </div>
+                <Box sx={{ position: 'relative', display: 'inline-flex', paddingTop: '25px' }}>
+                  <CircularProgress variant="determinate" value={progress} style={{ color: "maroon", paddingLeft: "20px" }} size="4.5rem" />
+                  <Box
+                    sx={{
+                      top: 10,
+                      left: 0,
+                      bottom: 0,
+                      right: 0,
+                      position: 'absolute',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                    }}
+                  >
+                    <div
+                      style={{ fontSize: "20px" }}
+                    >{progress}</div>
+                  </Box>
+                </Box>
+              </Grid>
+
+              <Grid item>
+                <div style={{ fontSize: "17px" }}>
+                  Track Progress
+                </div>
+                {progressTitles.map((title, index) => {
+                  return (
+                    <Tooltip arrow title={title} componentsProps={blackArrowStyle}>
+                      <Checkbox style={{ color: "green" }} icon={<DoneOutlineIcon />} checkedIcon={<DoneIcon />} checked={checkedState[index]} onChange={() => handleOnChange(index)} />
+                    </Tooltip>
+                  );
+                })}
+                <Tooltip arrow title="Finish Challenge" componentsProps={blackArrowStyle}>
+                  <Checkbox style={{ color: "brown" }} icon={<FlagOutlinedIcon />} checkedIcon={<FlagIcon />} checked={checkedState[3]} onChange={() => handleOnChange(3)} />
+                </Tooltip>
+                <div style={{ paddingTop: "10px", fontSize: "17px" }}>
+                  Resources
+                </div>
+                <Tooltip title={body[0].video.title} componentsProps={blackArrowStyle} arrow={true}>
+                  <IconButton href={body[0].video.url} target={"_blank"}>
+                    <PlayCircleOutlineIcon />
+                  </IconButton>
+                </Tooltip>
+                <Tooltip title={body[0].reading.title} componentsProps={blackArrowStyle} arrow={true}>
+                  <IconButton href={body[0].reading.url} target={"_blank"}>
+                    <AutoStoriesIcon />
+                  </IconButton>
+                </Tooltip>
+                <Tooltip title={body[0].challenge.title} componentsProps={blackArrowStyle}>
+                  <IconButton href={body[0].challenge.url} target={"_blank"}>
+                    <TrendingUpIcon />
+                  </IconButton>
+                </Tooltip>
+              </Grid>
             </Grid>
-          </Grid>
-        </CardContent>
-      </Card>
-    </div>
+          </CardContent>
+        </Card>
+
+      </div></>
   )
 }
 
