@@ -1,0 +1,13 @@
+.card-container {
+  margin: 25px;
+  border: solid 2px white;
+  width: 400px;
+  height: 250px;
+}
+.font-black {
+  color: black;
+}
+.title {
+  font-weight: 600;
+  font-size: 20px;
+}

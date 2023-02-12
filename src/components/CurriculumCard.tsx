@@ -1,7 +1,6 @@
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
 import React, { useState } from "react";
 import { Course } from "../interfaces/Curriculum";
 import { Checkbox, CircularProgress, Grid, IconButton, Tooltip } from '@mui/material';
@@ -14,6 +13,7 @@ import { progressTitles, blackArrowStyle } from '../util/constants';
 import DoneOutlineIcon from '@mui/icons-material/DoneOutline';
 import DoneIcon from '@mui/icons-material/Done';
 import ConfettiExplosion from 'react-confetti-explosion';
+import './CurriculumCard.css';
 
 const Curriculum: React.FC<Course> = ({ title, body, term }) => {
   const [checkedState, setCheckedState] = useState(new Array(4).fill(false));
@@ -42,20 +42,26 @@ const Curriculum: React.FC<Course> = ({ title, body, term }) => {
   };
 
   const celebrate = () => {
-    return currentSum === 100 ? <ConfettiExplosion duration={2100}  particleSize={17}/> : <></>
+    return currentSum === 100 ? <ConfettiExplosion duration={2100} particleSize={17} /> : <></>
   }
 
   return (
-                <><div>
+    <><div>
       {celebrate()}
     </div><div>
 
-        <Card style={{ margin: "25px", border: "solid 2px", boxShadow: "13px 10px", width: "400px", height: "250px" }}>
+        <Card className="card-container" style={{ boxShadow: "13px 10px black" }} sx={{
+          root: {
+            maxWidth: 310,
+            transition: "transform 0.15s ease-in-out",
+            "&:hover": { transform: "scale3d(1.05, 1.05, 1)" },
+          },
+        }} >
           <CardContent>
-            <Grid container>
+            <Grid container >
               <Grid item xs>
                 Term {term}
-                <div style={{ fontWeight: "600", fontSize: "20px" }}>
+                <div className="title">
                   {title}
                 </div>
                 <Box sx={{ position: 'relative', display: 'inline-flex', paddingTop: '25px' }}>
