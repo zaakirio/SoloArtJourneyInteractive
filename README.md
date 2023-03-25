@@ -1,5 +1,4 @@
 Solo Art Journey Interactive Version
-Course curriculum has been heavily influenced by RadioRunner & BrendanMeachen
+>Welcome to the Solo Art Journey, a curriculum for the solo artist popularised by Alex Huneycutt
 
-An interactive platform for tracking your solo art journey progress 
-Live at: soloartjourney.com
+Live 🔴: https://soloartjourney.com
