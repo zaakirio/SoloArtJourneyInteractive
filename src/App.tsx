@@ -27,7 +27,7 @@ const App: React.FC = () => {
       <Grid style={{ margin: 20 }}>
         <Card style={{ padding: "15px", boxShadow: "13px 10px black", color: "black" }}>
           <div style={{ fontSize: "30px", fontWeight: "bolder" }}>Preface</div>
-          <div style={{ fontSize: "20px" }}>After being inspired by RadioRunner and Brendan Meachen, I have decided to create an interactive version of the curriculum to track my journey </div>
+          <div style={{ fontSize: "20px" }}>Welcome to the Solo Art Journey, a curriculum for the solo artist popularised by Alex Huneycutt</div>
           <div style={{ fontSize: "30px", fontWeight: "bolder" }}></div>
           <div style={{ fontSize: "20px" }}></div>
         </Card>
