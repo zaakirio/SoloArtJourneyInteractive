@@ -19,14 +19,11 @@ const App: React.FC = () => {
       alignContent="center"
       justifyContent="center"
     >
-      <Grid style={{ margin: 20 }}>
-        <h1 style={{ color: "black", alignItems: "center" }} >
-          <strong className="c">Solo Art Journey Tracker </strong>
-        </h1>
-      </Grid>
+
       <Grid style={{ margin: 20 }}>
         <Card style={{ padding: "15px", boxShadow: "13px 10px black", color: "black" }}>
-          <div style={{ fontSize: "30px", fontWeight: "bolder" }}>Preface</div>
+          <div style={{ color: "black" , fontSize: "30px", fontWeight: "bolder",  textShadow:" 2px 2px darkGrey"
+}}>Preface</div>
           <div style={{ fontSize: "20px" }}>Welcome to the Solo Art Journey, a curriculum for the solo artist popularised by Alex Huneycutt</div>
           <div style={{ fontSize: "30px", fontWeight: "bolder" }}></div>
           <div style={{ fontSize: "20px" }}></div>
