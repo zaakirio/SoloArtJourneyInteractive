@@ -21,7 +21,7 @@ const App: React.FC = () => {
       justifyContent="center"
     >
 
-      <Grid style={{ margin: 20 ,color:'black'}}>
+      <Grid style={{ margin: 20 }}>
         <Card style={{ padding: "15px", boxShadow: "13px 10px black", color: "black" }}>
           <div style={{ color: "black" , fontSize: "30px", fontWeight: "bolder",  textShadow:" 2px 2px darkGrey"
 }}>Preface</div>
@@ -31,7 +31,6 @@ const App: React.FC = () => {
         </Card>
       </Grid>
       <CoursesSection/>
-
       <div className="CardPickerContainer">
         <Grid container spacing={0}>
           {courses.map(course =>
