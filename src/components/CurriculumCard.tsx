@@ -1,4 +1,4 @@
-// CurriculumCard.tsx
+'use client'
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BookOpen, Youtube, BookmarkCheck, GraduationCap, ChevronDown, X, Palette, Book, Pencil } from 'lucide-react';
@@ -7,7 +7,6 @@ interface CurriculumCardProps {
   termData: Term;
 }
 
-// Color theme mapping for different terms
 const termColors = {
   1: { bg: 'bg-rose-50', accent: 'bg-rose-500', text: 'text-rose-700', hover: 'hover:bg-rose-100', border: 'border-rose-200' },
   2: { bg: 'bg-violet-50', accent: 'bg-violet-500', text: 'text-violet-700', hover: 'hover:bg-violet-100', border: 'border-violet-200' },
@@ -15,6 +14,10 @@ const termColors = {
   4: { bg: 'bg-amber-50', accent: 'bg-amber-500', text: 'text-amber-700', hover: 'hover:bg-amber-100', border: 'border-amber-200' },
   5: { bg: 'bg-emerald-50', accent: 'bg-emerald-500', text: 'text-emerald-700', hover: 'hover:bg-emerald-100', border: 'border-emerald-200' },
   6: { bg: 'bg-indigo-50', accent: 'bg-indigo-500', text: 'text-indigo-700', hover: 'hover:bg-indigo-100', border: 'border-indigo-200' },
+  7: { bg: 'bg-fuchsia-50', accent: 'bg-fuchsia-500', text: 'text-fuchsia-700', hover: 'hover:bg-fuchsia-100', border: 'border-fuchsia-200' },
+  8: { bg: 'bg-teal-50', accent: 'bg-teal-500', text: 'text-teal-700', hover: 'hover:bg-teal-100', border: 'border-teal-200' },
+  9: { bg: 'bg-orange-50', accent: 'bg-orange-500', text: 'text-orange-700', hover: 'hover:bg-orange-100', border: 'border-orange-200' },
+  10: { bg: 'bg-blue-50', accent: 'bg-blue-500', text: 'text-blue-700', hover: 'hover:bg-blue-100', border: 'border-blue-200' },
 };
 
 export const CurriculumCard = ({ termData }: CurriculumCardProps) => {
@@ -39,7 +42,7 @@ export const CurriculumCard = ({ termData }: CurriculumCardProps) => {
   const getUnitIcon = (title: string) => {
     if (title.toLowerCase().includes('drawing')) return <Pencil className="w-6 h-6" />;
     if (title.toLowerCase().includes('perspective')) return <Book className="w-6 h-6" />;
-    if (title.toLowerCase().includes('composition')) return <Palette className="w-6 h-6" />;
+    if (title.toLowerCase().includes('composition') || title.toLowerCase().includes('painting')) return <Palette className="w-6 h-6" />;
     return <GraduationCap className="w-6 h-6" />;
   };
 
@@ -67,12 +70,12 @@ export const CurriculumCard = ({ termData }: CurriculumCardProps) => {
             href={resource.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="block text-blue-600 hover:underline"
+            className="block text-blue-600 hover:underline font-body"
           >
             {resource.title}
           </a>
         );
-      
+
       case 'youtube':
         return (
           <div className="space-y-2 mt-2">
@@ -82,24 +85,24 @@ export const CurriculumCard = ({ termData }: CurriculumCardProps) => {
                 href={video.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block text-blue-600 hover:underline"
+                className="block text-blue-600 hover:underline font-body"
               >
                 {video.title}
               </a>
             ))}
           </div>
         );
-      
+
       case 'book':
         return (
-          <div>
+          <div className="font-body">
             {resource.title} by {resource.author}
           </div>
         );
-      
+
       case 'challenge':
         return (
-          <div>
+          <div className="font-body">
             {resource.url ? (
               <a
                 href={resource.url}
@@ -131,13 +134,13 @@ export const CurriculumCard = ({ termData }: CurriculumCardProps) => {
       initial="collapsed"
       animate={isExpanded ? 'expanded' : 'collapsed'}
       transition={{ duration: 0.3, ease: 'easeInOut' }}
-      className={`${colors.bg} rounded-xl shadow-lg overflow-hidden cursor-pointer border ${colors.border} mb-6`}
+      className={`${colors.bg} rounded-xl shadow-lg overflow-hidden cursor-pointer border ${colors.border} mb-6 font-dot`}
       onClick={() => !isExpanded && setIsExpanded(true)}
     >
       {isExpanded ? (
         <div className="p-6 h-full overflow-y-auto bg-white">
           <div className="flex justify-between items-center mb-6">
-            <h1 className={`text-3xl font-bold ${colors.text}`}>Term {termData.term}</h1>
+            <h1 className={`text-3xl tracking-tight ${colors.text}`}>Term {termData.term}</h1>
             <button
               onClick={(e) => {
                 e.stopPropagation();
@@ -155,7 +158,7 @@ export const CurriculumCard = ({ termData }: CurriculumCardProps) => {
                 key={index} 
                 className={`${colors.bg} rounded-lg p-6 border ${colors.border}`}
               >
-                <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">
+                <h2 className="text-xl tracking-tight mb-4 flex items-center gap-2">
                   {getUnitIcon(unit.title)}
                   {unit.title}
                 </h2>
@@ -164,7 +167,7 @@ export const CurriculumCard = ({ termData }: CurriculumCardProps) => {
                     <div key={rIndex} className="bg-white rounded-lg p-4 shadow-sm">
                       <div className="flex items-center gap-2 text-gray-700 mb-2">
                         {getIcon(resource.type)}
-                        <span className="capitalize font-medium">{resource.type}</span>
+                        <span className="capitalize tracking-tight">{resource.type}</span>
                       </div>
                       {renderResource(resource)}
                     </div>
@@ -177,7 +180,7 @@ export const CurriculumCard = ({ termData }: CurriculumCardProps) => {
       ) : (
         <div className={`p-6 h-full flex flex-col`}>
           <div className="flex justify-between items-center mb-6">
-            <div className={`${colors.accent} text-white px-4 py-1 rounded-full text-sm font-medium`}>
+            <div className={`${colors.accent} text-white px-4 py-1 rounded-full text-sm tracking-tight`}>
               Term {termData.term}
             </div>
             <ChevronDown className={`w-5 h-5 ${colors.text}`} />
@@ -186,7 +189,7 @@ export const CurriculumCard = ({ termData }: CurriculumCardProps) => {
             {termData.units.map((unit, index) => (
               <div key={index} className={`flex items-center gap-2 ${colors.text}`}>
                 {getUnitIcon(unit.title)}
-                <span className="font-medium">{unit.title}</span>
+                <span className="tracking-tight">{unit.title}</span>
               </div>
             ))}
           </div>
@@ -194,7 +197,7 @@ export const CurriculumCard = ({ termData }: CurriculumCardProps) => {
             {Array.from(new Set(termData.units.flatMap(unit => 
               unit.resources.map(resource => resource.type)
             ))).map((type) => (
-              <div key={type} className={`flex items-center gap-1 ${colors.text} text-sm`}>
+              <div key={type} className={`flex items-center gap-1 ${colors.text} text-sm tracking-tight`}>
                 {getIcon(type as Resource['type'])}
                 <span className="capitalize">{type}</span>
               </div>
@@ -206,7 +209,6 @@ export const CurriculumCard = ({ termData }: CurriculumCardProps) => {
   );
 };
 
-// Grid Layout Component
 export const CurriculumGrid = ({ terms }: { terms: Term[] }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
