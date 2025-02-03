@@ -1,0 +1,125 @@
+{
+    "term": 6,
+    "units": [
+      {
+        "title": "Character design",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Character Design w/ Aaron Blaise",
+            "url": "https://creatureartteacher.com/product/character-design-course-aaron-blaise/"
+          },
+          {
+            "type": "youtube",
+            "videos": [
+              {
+                "title": "Marco Bucci: Character Design Mini Series",
+                "url": "https://www.youtube.com/watch?v=gI62rHNtg2w"
+              },
+              {
+                "title": "Sinix: Anatomy Quick Tips",
+                "url": "https://www.youtube.com/watch?v=IVbqoy_JEV0&list=PLflflDShjUKH4EfZyf0vuKEuqeqvlV0Qd"
+              }
+            ]
+          },
+          {
+            "type": "course",
+            "title": "Gesture Drawing, Alex Woo",
+            "url": "https://www.schoolism.com/school.php?id=14"
+          },
+          {
+            "type": "course",
+            "title": "Fundamentals of Character Design, Stephen Silver",
+            "url": "https://www.schoolism.com/school.php?id=10"
+          },
+          {
+            "type": "course",
+            "title": "Expressive Characters, Wouter Tulp",
+            "url": "https://www.schoolism.com/school.php?id=39"
+          },
+          {
+            "type": "challenge",
+            "tasks": [
+              "moderndayjames' 100 Expressions Challenge",
+              "50 Character Design variation Studies",
+              "50 subjects, 3 variations each"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Composition & storytelling II",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Pictorial Composition w/ Nathan Fowkes, Schoolism",
+            "url": "https://www.schoolism.com/school.php?id=48"
+          },
+          {
+            "type": "youtube",
+            "videos": [
+              {
+                "title": "moderndayjames: Composition I",
+                "url": "https://www.youtube.com/watch?v=wg-So3ElA8g&t=34s"
+              },
+              {
+                "title": "moderndayjames: Sketching at a Distance",
+                "url": "https://www.youtube.com/watch?v=aBkT6QSheog"
+              },
+              {
+                "title": "moderndayjames: WorldBuilding I, II, III",
+                "url": "https://www.youtube.com/watch?v=19dIqWdgpzY"
+              }
+            ]
+          },
+          {
+            "type": "course",
+            "title": "Story-Driven Illustrations, Djamilia Knopf",
+            "url": "https://www.schoolism.com/school.php?id=48"
+          },
+          {
+            "type": "course",
+            "title": "Lighting for Story & Concept Art, Sam Nielson",
+            "url": "https://www.schoolism.com/school.php?id=29"
+          },
+          {
+            "type": "challenge",
+            "tasks": [
+              "50 Compositions including figures",
+              "2 total variations",
+              "Change colour, perspective, and composition",
+              "100 environment Colour / Composition Studies",
+              "Pick movie shots that tell a story in a single frame"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Perspective VI",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Krenz Cushart's Gumroad Bundle",
+            "url": "https://gumroad.com/krenzcushart"
+          },
+          {
+            "type": "youtube",
+            "videos": [
+              {
+                "title": "moderndayjames: Emulating Even Amundsen Series",
+                "url": "https://www.youtube.com/watch?v=1VSH32ede6g"
+              }
+            ]
+          },
+          {
+            "type": "challenge",
+            "tasks": [
+              "Draw 100 figures in perspective",
+              "Rotate 50 figures a full 360 degrees",
+              "Draw 50 compositions of figures in extreme perspectives"
+            ]
+          }
+        ]
+      }
+    ]
+  }

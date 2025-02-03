@@ -1,0 +1,109 @@
+{
+    "term": 8,
+    "units": [
+      {
+        "title": "Environment Design II",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Environment Design Course, James Paick (Gumroad)",
+            "url": "https://gumroad.com/jamespaick"
+          },
+          {
+            "type": "challenge",
+            "tasks": [
+              "100 Environment Thumbnail Studies",
+              "Make at least half feature figures, animals, or some additional subject"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Painting I",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Digital Painting 1 + Brushwork Techniques, Marco Bucci",
+            "url": "https://marcobucciartstore.com/collections/online-workshops/products/full-digital-painting-package"
+          },
+          {
+            "type": "youtube",
+            "videos": [
+              {
+                "title": "Sinix: Paint like a sculptor",
+                "url": "https://www.youtube.com/watch?v=zC3OxonJcXQ&t=577s"
+              },
+              {
+                "title": "Sinix: The best brush (for beginners)",
+                "url": "https://www.youtube.com/watch?v=-Nt9fa8jZUE"
+              },
+              {
+                "title": "Proko: Make digital paintings look traditional",
+                "url": "https://www.youtube.com/watch?v=0Dbf63YnkeA"
+              }
+            ]
+          },
+          {
+            "type": "course",
+            "title": "Essentials of Realism, Jonathan Hardesty",
+            "url": "https://www.schoolism.com/school.php?id=33"
+          },
+          {
+            "type": "challenge",
+            "tasks": [
+              "50 value studies",
+              "50 colour studies",
+              "Limit time to 60 minutes each",
+              "Optional: Develop traditional painting habits. Paint on only one layer, with no undo"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Anatomy VI - Caricature / Animal",
+        "resources": [
+          {
+            "type": "course",
+            "title": "The Art of Caricature w/ Court Jones, Proko Premium",
+            "url": "https://www.proko.com/art-of-caricature-with-court-jones/#.XrWJHxNKh24"
+          },
+          {
+            "type": "youtube",
+            "videos": [
+              {
+                "title": "FZDSchool: EP 62 - Real-time Creature Designs",
+                "url": "https://www.youtube.com/watch?v=9FGCClodLUE"
+              },
+              {
+                "title": "Austin Batchelor: Mixing 3 Animals into 1 Creature",
+                "url": "https://www.youtube.com/watch?v=HgDkG2wu808"
+              }
+            ]
+          },
+          {
+            "type": "course",
+            "title": "Creature Anatomy, Terryl Whitlatch",
+            "url": "https://www.schoolism.com/school.php?id=32"
+          },
+          {
+            "type": "course",
+            "title": "The Art of Caricature, Jason Seiler",
+            "url": "https://www.schoolism.com/school.php?id=8"
+          },
+          {
+            "type": "course",
+            "title": "Realistic Portraits, Jason Seiler",
+            "url": "https://www.schoolism.com/school.php?id=37"
+          },
+          {
+            "type": "challenge",
+            "tasks": [
+              "100 Caricatures",
+              "100 Animal Studies",
+              "50 Creature Designs (after completing at least 50 animal studies)"
+            ]
+          }
+        ]
+      }
+    ]
+  }

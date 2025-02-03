@@ -1,0 +1,113 @@
+{
+    "term": 9,
+    "units": [
+      {
+        "title": "Painting II",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Digital Painting 2 & 3, Marco Bucci",
+            "url": "https://marcobucciartstore.com/collections/online-workshops/products/full-digital-painting-package"
+          },
+          {
+            "type": "youtube",
+            "videos": [
+              {
+                "title": "moderndayjames: Intro to Gouache",
+                "url": "https://www.youtube.com/watch?v=UHpRt_Hg-JE"
+              },
+              {
+                "title": "moderndayjames: Digital Painting 1",
+                "url": "https://www.youtube.com/watch?v=Q6-NhdEPKGk"
+              },
+              {
+                "title": "moderndayjames: Digital Painting 2",
+                "url": "https://www.youtube.com/watch?v=F5VNb5itr9Y"
+              },
+              {
+                "title": "moderndayjames: Digital Painting 3",
+                "url": "https://www.youtube.com/watch?v=w3zVGXSw_d8"
+              }
+            ]
+          },
+          {
+            "type": "challenge",
+            "tasks": [
+              "50 Value Studies",
+              "50 Colour Studies",
+              "Limit time for both to 60 minutes or less",
+              "Optional: Develop traditional painting habits. Paint on only one layer, with no undo"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Painting III - Matte Painting",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Art Camp: Environment Concept Design, Titus Lunter",
+            "url": "https://artcamp.com/"
+          },
+          {
+            "type": "course",
+            "title": "Term 9, Matte Painting, Cubebrush ARTSchool",
+            "url": "https://cubebrush.co/mb/products/mmfwyq/art-school"
+          },
+          {
+            "type": "course",
+            "title": "Digital Painting, Craig Mullins",
+            "url": "https://www.schoolism.com/school.php?id=44"
+          },
+          {
+            "type": "challenge",
+            "tasks": [
+              "10 Matte Painting Studies (include Photobashing)",
+              "If you're unable to photobash, 10 Full Works of Normal Painting"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Personal Project",
+        "resources": [
+          {
+            "type": "book",
+            "title": "The Skillful Huntsman",
+            "author": "Felix Yoon, Khang Le, Mike Yamada, & Scott Robertson"
+          },
+          {
+            "type": "youtube",
+            "videos": [
+              {
+                "title": "FengZhu / FZDSchool",
+                "url": "https://www.youtube.com/user/FZDSCHOOL"
+              }
+            ]
+          },
+          {
+            "type": "course",
+            "title": "Introduction to Visual Development w/ Victoria Ying",
+            "url": "https://www.schoolism.com/school.php?id=46"
+          },
+          {
+            "type": "course",
+            "title": "Painting w/ Light & Colour, Dice Tsutsumi & Robert Kondo",
+            "url": "https://www.schoolism.com/school.php?id=30"
+          },
+          {
+            "type": "challenge",
+            "tasks": [
+              "3 Personal Projects",
+              "Concept",
+              "Visual design",
+              "Multiple perspectives",
+              "Colour variations",
+              "Character variations",
+              "Environment variations"
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,123 @@
+{
+    "term": 3,
+    "units": [
+      {
+        "title": "Perspective III",
+        "resources": [
+          {
+            "type": "book",
+            "title": "How to Draw",
+            "author": "Scott Robertson"
+          },
+          {
+            "type": "youtube",
+            "videos": [
+              {
+                "title": "moderndayjames: Perspective 3",
+                "url": "https://www.youtube.com/watch?v=5gBpf47phh0&list=PLgKJMTFp_25iQVZ6ItpZKTSN9Yo44YSTs&index=4"
+              },
+              {
+                "title": "moderndayjames: Perspective 4",
+                "url": "https://www.youtube.com/watch?v=03IrOGkbaZc&list=PLgKJMTFp_25iQVZ6ItpZKTSN9Yo44YSTs&index=3"
+              },
+              {
+                "title": "moderndayjames: Perspective 5",
+                "url": "https://www.youtube.com/watch?v=2XF5YuAK63I&list=PLgKJMTFp_25iQVZ6ItpZKTSN9Yo44YSTs&index=2"
+              }
+            ]
+          },
+          {
+            "type": "challenge",
+            "tasks": [
+              "Drawabox.com 25 wheel challenge",
+              "Rotate 50 boxes & 50 cylinders"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Anatomy III - arms",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Anatomy of the Human Body for Artists (Arms), Proko Premium",
+            "url": "https://www.proko.com/human-anatomy-for-artists/#.XrVW5RNKh24"
+          },
+          {
+            "type": "youtube",
+            "videos": [
+              {
+                "title": "Proko: Arms Anatomy Series",
+                "url": "https://www.youtube.com/watch?v=pDgyQjNFVQk&list=PLtG4P3lq8RHFBeVaruf2JjyQmZJH4__Zv"
+              },
+              {
+                "title": "moderndayjames: Elements of Character",
+                "url": "https://www.youtube.com/watch?v=xGhYfLQWbp0"
+              },
+              {
+                "title": "moderndayjames: Anatomy of the Head",
+                "url": "https://www.youtube.com/watch?v=ERc2xnQpCR4"
+              },
+              {
+                "title": "moderndayjames: Sketching the Head II",
+                "url": "https://www.youtube.com/watch?v=enWCcl2fCvw"
+              }
+            ]
+          },
+          {
+            "type": "challenge",
+            "tasks": [
+              "100 hands",
+              "25 rotated heads"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Clothed figure drawing",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Clothing & Drapery w/ Glenn Vilpu, New Masters Academy",
+            "url": "https://www.nma.art/videolessons/how-to-draw-clothing-and-drapery/"
+          },
+          {
+            "type": "youtube",
+            "videos": [
+              {
+                "title": "moderndayjames: Character Sketching I: Cloth & Drapery",
+                "url": "https://www.youtube.com/watch?v=S1eR1rcPlHc"
+              },
+              {
+                "title": "moderndayjames: Cloth & Drapery II: Movement in Fabric",
+                "url": "https://www.youtube.com/watch?v=Wz7SdRoMhT4"
+              },
+              {
+                "title": "Sinix: Clothing Folds and You",
+                "url": "https://www.youtube.com/watch?v=vIO4ODhm0tc"
+              },
+              {
+                "title": "Marc Brunet: How to Paint Folds",
+                "url": "https://www.youtube.com/watch?v=MHRSPNkGxQo"
+              }
+            ]
+          },
+          {
+            "type": "course",
+            "title": "Term 3, Clothed Figure Drawing, Cubebrush Artschool",
+            "url": "https://cubebrush.co/mb/products/mmfwyq/art-school"
+          },
+          {
+            "type": "challenge",
+            "tasks": [
+              "30 Day Clothed Figure Gesture Challenge",
+              "20 - 30 minutes",
+              "5x 1 minute",
+              "5x 2 minutes",
+              "3x 5 minutes or 1x 10 minutes sketches"
+            ]
+          }
+        ]
+      }
+    ]
+  }
