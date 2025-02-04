@@ -1,6 +1,8 @@
 // src/app/page.tsx
 import type { NextPage } from 'next';
-import {Navbar} from '@/components/Navbar';
+import Image from 'next/image';
+import logo from "../../public/soloartjourney.png";
+
 import { CurriculumGrid } from '@/components/CurriculumCard';
 import term1Data from '../data/curriculum/term-1.json';
 import term2Data from '../data/curriculum/term-2.json';
@@ -11,6 +13,7 @@ import term6Data from '../data/curriculum/term-6.json';
 import term7Data from '../data/curriculum/term-7.json';
 import term8Data from '../data/curriculum/term-8.json';
 import term9Data from '../data/curriculum/term-9.json';
+import { AnimatedBackground } from '@/components/AnimatedBackground';
 
 const Home: NextPage = () => {
   const terms = [
@@ -26,11 +29,20 @@ const Home: NextPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-[#fafafa]">
-      <Navbar />
-      <main className="pt-20">
+    <div className="min-h-screen relative">
+      <AnimatedBackground />
+      <main className="pt-10 relative">
         <div className="max-w-7xl mx-auto px-6">
-          <h1 className="text-4xl mb-12 tracking-tight">Curriculum - idk how i wanna handle title and about us section lets see</h1>
+          <div className="flex justify-center mb-8">
+            <Image
+              src={logo}
+              alt="Solo Art Journey"
+              width={600}
+              height={300}
+              className="max-w-3xl"
+              priority
+            />
+          </div>
           <CurriculumGrid terms={terms as Term[]} />
         </div>
       </main>

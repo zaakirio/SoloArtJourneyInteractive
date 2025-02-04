@@ -7,12 +7,6 @@
   font-display: block;
 }
 
-/* Debug helper classes */
-.custom-font {
-  font-family: '42dotSans' !important;
-}
-
-/* Apply the font globally */
 :root {
   --font-42dot: '42dotSans';
 }
@@ -30,8 +24,4 @@ a {
   background-repeat: no-repeat;
   background-size: 0% 1px;
   transition: background-size 0.3s;
-}
-
-a:hover {
-  background-size: 100% 1px;
 }

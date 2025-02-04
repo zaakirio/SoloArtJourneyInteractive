@@ -33,10 +33,8 @@
           {
             "type": "challenge",
             "tasks": [
-              "50 Value Studies",
-              "50 Colour Studies",
-              "Limit time for both to 60 minutes or less",
-              "Optional: Develop traditional painting habits. Paint on only one layer, with no undo"
+              "50 Value Studies (60 Minutes)",
+              "50 Colour Studies (60 Minutes)"
             ]
           }
         ]
@@ -63,7 +61,7 @@
             "type": "challenge",
             "tasks": [
               "10 Matte Painting Studies (include Photobashing)",
-              "If you're unable to photobash, 10 Full Works of Normal Painting"
+              "10 Full Works of Normal Painting"
             ]
           }
         ]
