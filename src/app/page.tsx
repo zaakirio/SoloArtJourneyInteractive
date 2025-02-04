@@ -1,5 +1,6 @@
+// src/app/page.tsx
 import type { NextPage } from 'next';
-import "../styles/globals.css";
+import {Navbar} from '@/components/Navbar';
 import { CurriculumGrid } from '@/components/CurriculumCard';
 import term1Data from '../data/curriculum/term-1.json';
 import term2Data from '../data/curriculum/term-2.json';
@@ -11,7 +12,7 @@ import term7Data from '../data/curriculum/term-7.json';
 import term8Data from '../data/curriculum/term-8.json';
 import term9Data from '../data/curriculum/term-9.json';
 
-export const Home: NextPage = () => {
+const Home: NextPage = () => {
   const terms = [
     term1Data,
     term2Data,
@@ -25,8 +26,14 @@ export const Home: NextPage = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto">
-      <CurriculumGrid terms={terms as Term[]} />
+    <div className="min-h-screen bg-[#fafafa]">
+      <Navbar />
+      <main className="pt-20">
+        <div className="max-w-7xl mx-auto px-6">
+          <h1 className="text-4xl mb-12 tracking-tight">Curriculum - idk how i wanna handle title and about us section lets see</h1>
+          <CurriculumGrid terms={terms as Term[]} />
+        </div>
+      </main>
     </div>
   );
 };
