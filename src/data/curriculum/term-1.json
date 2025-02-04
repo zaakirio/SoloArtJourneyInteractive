@@ -1,0 +1,114 @@
+{
+    "term": 1,
+    "units": [
+      {
+        "title": "Figure drawing",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Figure drawing Fundamentals, Proko Premium",
+            "url": "https://www.proko.com/figure-drawing-fundamentals-course"
+          },
+          {
+            "type": "youtube",
+            "videos": [
+              {
+                "title": "Proko Figure Drawing fundamentals",
+                "url": "https://www.youtube.com/watch?v=74HR59yFZ7Y&list=PLtG4P3lq8RHGuMuprDarMz_Y9Fbw_d2ws"
+              },
+              {
+                "title": "Love Life Drawing",
+                "url": "https://www.youtube.com/user/lovelifedrawing"
+              }
+            ]
+          },
+          {
+            "type": "book",
+            "title": "Figure drawing for all it's worth",
+            "author": "Andrew Loomis"
+          },
+          {
+            "type": "challenge",
+            "title": "30 days of Croquis Cafe Gesture Sessions",
+            "url": "https://www.youtube.com/@onairvideo/featured"
+          }
+        ]
+      },
+      {
+        "title": "Perspective I",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Drawabox.com Lessons 0-3",
+            "url": "https://drawabox.com/"
+          },
+          {
+            "type": "course",
+            "title": "Introduction to Perspective, Marshall Vandruff",
+            "url": "https://marshallart.com/SHOP/all-products/all-videos/1994-perspective-drawing-series/"
+          },
+          {
+            "type": "book",
+            "title": "Perspective Made Easy",
+            "author": "Ernest Norling"
+          },
+          {
+            "type": "course",
+            "title": "Fundamentals of Perspective, Gary Myers",
+            "url": "https://www.thegnomonworkshop.com/tutorials/fundamentals-of-perspective-1"
+          },
+          {
+            "type": "challenge",
+            "title": "Drawabox.com",
+            "tasks": [
+              "250 Box Challenge",
+              "250 Cylinder Challenge"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Composition & storytelling I",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Creative Composition, SVSLearn",
+            "url": "https://www.svslearn.com/news/2018/11/7/creative-composition-20"
+          },
+          {
+            "type": "youtube",
+            "videos": [
+              {
+                "title": "Aaron Blaise: Methods for pleasing compositions",
+                "url": "https://www.youtube.com/watch?v=dOMRWxo0ixo"
+              },
+              {
+                "title": "moderndayjames: Composition 1",
+                "url": "https://www.youtube.com/watch?v=wg-So3ElA8g"
+              },
+              {
+                "title": "Sycra: Effective Composition Using Shapes",
+                "url": "https://www.youtube.com/watch?v=Q7qonaAIDUk&list=PLV2X3tgajVlHEWoxhxHBV5JyU7R80LT9R"
+              },
+              {
+                "title": "Blender Guru: Composition",
+                "url": "https://www.youtube.com/watch?v=O8i7OKbWmRM"
+              }
+            ]
+          },
+          {
+            "type": "book",
+            "title": "Framed Ink",
+            "author": "Marcos Mateu-Mestre"
+          },
+          {
+            "type": "challenge",
+            "tasks": [
+              "Thumbnail 50 favourite movie scenes",
+              "Iterate on 5 compositions, 10x each"
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,136 @@
+{
+  "term": 5,
+  "units": [
+    {
+      "title": "Intro to Animals",
+      "resources": [
+        {
+          "type": "book",
+          "title": "FORCE: Animal Drawing, Mike Matessi"
+        },
+        {
+          "type": "course",
+          "title": "Aaron Blaise (Pick One)",
+          "options": [
+            {
+              "title": "Big Cats",
+              "url": "https://creatureartteacher.com/product/how-to-draw-animals-course-big-cats/"
+            },
+            {
+              "title": "Bears",
+              "url": "https://creatureartteacher.com/product/how-to-draw-bears-aaron-blaise/"
+            },
+            {
+              "title": "Horses",
+              "url": "https://creatureartteacher.com/product/how-to-draw-horses/"
+            },
+            {
+              "title": "Wolves, Coyotes, and Foxes",
+              "url": "https://creatureartteacher.com/product/how-to-draw-wolves-coyotes-foxes/"
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "title": "Animal Anatomy Bundle, moderndayjames",
+          "url": "https://gumroad.com/moderndayjames?sort=page_layout"
+        },
+        {
+          "type": "challenge",
+          "tasks": [
+            "30-day Gesture Sessions of Animals, changing type each week",
+            "4-legged animals",
+            "Aquatic animals",
+            "Flying animals",
+            "Big, small, reptilian, etc."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Perspective V",
+      "resources": [
+        {
+          "type": "book",
+          "title": "Framed Perspective II, Marcos Mateu-Mestre"
+        },
+        {
+          "type": "youtube",
+          "videos": [
+            {
+              "title": "Vehicle Sketching III",
+              "url": "https://www.youtube.com/watch?v=4Q4rh1gFWGg"
+            },
+            {
+              "title": "Vehicle Sketching IV",
+              "url": "https://www.youtube.com/watch?v=sL1f_tBYquE"
+            },
+            {
+              "title": "Sketching Figures in Extreme Perspective",
+              "url": "https://www.youtube.com/watch?v=g5gKA7hu7Fc"
+            }
+          ]
+        },
+        {
+          "type": "challenge",
+          "tasks": [
+            "100 Extreme Perspectives",
+            "50 Vehicle Rotation Studies",
+            "50 Unique Vehicle Designs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Colour & Light II",
+      "resources": [
+        {
+          "type": "book",
+          "title": "Colour and Light, James Gurney"
+        },
+        {
+          "type": "youtube",
+          "videos": [
+            {
+              "title": "Understanding Colour - Blender Guru",
+              "url": "https://www.youtube.com/watch?v=Qj1FK8n7WgY"
+            },
+            {
+              "title": "Lighting Mastery Series - Blender Guru",
+              "url": "https://www.youtube.com/watch?v=cg1K_ZWB0Uw"
+            },
+            {
+              "title": "How to Pick Colours That Work - Sycra",
+              "url": "https://www.youtube.com/watch?v=9kQllLy_X4I"
+            },
+            {
+              "title": "Where Do Highlights Go? - Colouring w/ Kurt",
+              "url": "https://www.youtube.com/watch?v=TOj5QLZ8Yxg"
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "title": "Designing w/ Colour & Light, Nathan Fowkes",
+          "url": "https://www.schoolism.com/school.php?id=22"
+        },
+        {
+          "type": "course",
+          "title": "Painting w/ Light & Colour, Tonko House & Cody Gramstead",
+          "url": "https://www.schoolism.com/school.php?id=41"
+        },
+        {
+          "type": "challenge",
+          "tasks": [
+            "150 Colour Replication Studies",
+            "- Environments",
+            "- Character Designs",
+            "- Movie Frames",
+            "or 50 Colour Variation Studies",
+            "- 50 subjects, drawn with 3X different colour palettes"
+          ]
+        }
+      ]
+    }
+  ]
+}

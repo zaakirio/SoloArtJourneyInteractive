@@ -1,0 +1,112 @@
+{
+    "term": 7,
+    "units": [
+      {
+        "title": "Anatomy V - Imagination",
+        "resources": [
+          {
+            "type": "book",
+            "title": "Figure Drawing: Design & Invention",
+            "author": "Michael Hampton"
+          },
+          {
+            "type": "youtube",
+            "videos": [
+              {
+                "title": "moderndayjames: Deciphering Bridgmans's Anatomy",
+                "url": "https://www.youtube.com/watch?v=FupeKX4NQsQ&t=48s"
+              },
+              {
+                "title": "moderndayjames: Deciphering Bridgman II",
+                "url": "https://www.youtube.com/watch?v=tZ9entFMbtI"
+              },
+              {
+                "title": "moderndayjames: Anatomical Shape Language",
+                "url": "https://www.youtube.com/watch?v=BWb15Nb4PWI"
+              },
+              {
+                "title": "Proko: How to study Bridgman",
+                "url": "https://www.youtube.com/watch?v=ZpnP28b3riY"
+              }
+            ]
+          },
+          {
+            "type": "book",
+            "title": "Constructive Anatomy",
+            "author": "George B. Bridgeman"
+          },
+          {
+            "type": "challenge",
+            "tasks": [
+              "50 Character Designs",
+              "3 Variations each w/ varied anatomical proportions",
+              "or invent 100 Figure Poses",
+              "50 Calm Poses",
+              "50 Action Poses",
+              "Next level: Rotate these poses 3x each"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Perspective VII",
+        "resources": [
+          {
+            "type": "youtube",
+            "videos": [
+              {
+                "title": "moderndayjames: Becoming a Gi Series",
+                "url": "https://www.youtube.com/watch?v=h8x_TClXuxM"
+              }
+            ]
+          },
+          {
+            "type": "course",
+            "title": "Dynamic Sketching 2, Peter Han",
+            "url": "https://www.cgmasteracademy.com/courses/68-dynamic-sketching-2"
+          },
+          {
+            "type": "challenge",
+            "tasks": [
+              "As many studies as possible from imagination",
+              "Rotate subjects full 360 degrees",
+              "Practice curvilinear perspective (Becoming a Gi 3)",
+              "Draw subjects in every angle (Becoming a Gi 3)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Environment Design I",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Art Camp 3, Noah Bradley",
+            "url": "https://artcamp.com/"
+          },
+          {
+            "type": "youtube",
+            "videos": [
+              {
+                "title": "FZDSchool - Environmental Thumbnails",
+                "url": "https://www.youtube.com/watch?v=P-l9kNXAeGQ"
+              }
+            ]
+          },
+          {
+            "type": "course",
+            "title": "Environment Design, Nathan Fowkes",
+            "url": "https://www.schoolism.com/school.php?id=26"
+          },
+          {
+            "type": "challenge",
+            "tasks": [
+              "100 Landscape Thumbnails",
+              "Create 1 deviation for each thumbnail: colour, shape design, biome, time of day, composition",
+              "Optional: Create 10 full works based on your thumbnails"
+            ]
+          }
+        ]
+      }
+    ]
+  }
