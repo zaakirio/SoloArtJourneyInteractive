@@ -22,21 +22,7 @@ An interactive curriculum viewer built with Next.js, React, and Tailwind CSS.
 - Tailwind CSS
 - Lucide Icons
 
-## Getting Started
+## Disclaimer
 
-1. Clone the repository:
-```bash
-git clone
-```
+This curriculum has been inspired by RadioRunners original ['Curriculum for the Solo Artist'](https://imgur.com/gallery/radiorunners-curriculum-solo-artist-structured-approach-to-learning-perspective-drawing-from-imagination-EZPc28m)
 
-2. Install dependencies:
-```bash
-pnpm install
-```
-
-3. Run the development server:
-```bash
-pnpm run dev
-```
-
-1. Open [http://localhost:3000](http://localhost:3000) in your browser.
