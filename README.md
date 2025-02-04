@@ -1,4 +1,6 @@
-# Solo Art Journey Curriculum Viewer
+# Solo Art Journey 
+
+https://soloartjourney.com
 
 An interactive curriculum viewer built with Next.js, React, and Tailwind CSS.
 
