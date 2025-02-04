@@ -8,6 +8,7 @@ import { getIcon, getUnitIcon } from '@/utils/helper';
 interface CurriculumCardProps {
   termData: Term;
 }
+
 const termColors = {
   1: { bg: 'bg-rose-50', accent: 'bg-rose-500', text: 'text-rose-700', hover: 'hover:bg-rose-100', border: 'border-rose-200' },
   2: { bg: 'bg-violet-50', accent: 'bg-violet-500', text: 'text-violet-700', hover: 'hover:bg-violet-100', border: 'border-violet-200' },

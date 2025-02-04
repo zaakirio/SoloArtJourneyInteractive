@@ -41,6 +41,8 @@ const Home: NextPage = () => {
               height={300}
               className="max-w-3xl"
               priority
+              unoptimized
+              quality={120}
             />
           </div>
           <CurriculumGrid terms={terms as Term[]} />
