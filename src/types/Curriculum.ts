@@ -14,7 +14,7 @@ type Unit = {
   title: string;
   resources: Resource[];
 };
-
+/* eslint-disable @typescript-eslint/no-unused-vars */
 type Term = {
   term: number;
   units: Unit[];
