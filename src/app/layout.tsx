@@ -4,7 +4,7 @@ import '@/styles/fonts.css'
 
 export const metadata = {
   title: 'Solo Art Journey',
-  description: 'Your App Description',
+  description: 'A curriculum for learning art the solo way',
 }
 
 export default function RootLayout({
