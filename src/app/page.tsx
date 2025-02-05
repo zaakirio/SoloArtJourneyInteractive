@@ -1,5 +1,5 @@
 // src/app/page.tsx
-import type { NextPage } from 'next';
+import type { Metadata, NextPage } from 'next';
 import Image from 'next/image';
 import logo from "../../public/soloartjourney.png";
 
@@ -14,6 +14,15 @@ import term7Data from '../data/curriculum/term-7.json';
 import term8Data from '../data/curriculum/term-8.json';
 import term9Data from '../data/curriculum/term-9.json';
 import { AnimatedBackground } from '@/components/AnimatedBackground';
+
+export const metadata: Metadata = {
+  title: 'Solo Art Journey',
+  description: 'Start your art learning journey with our structured curriculum. From fundamentals to advanced techniques, discover a self-paced path to mastering art.',
+  openGraph: {
+    title: 'Solo Art Journey',
+    description: 'Start your art learning journey with our structured curriculum. From fundamentals to advanced techniques, discover a self-paced path to mastering art.',
+  }
+}
 
 const Home: NextPage = () => {
   const terms = [

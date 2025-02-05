@@ -1,135 +1,135 @@
 {
-    "term": 4,
-    "units": [
-      {
-        "title": "Colour & light I",
-        "resources": [
-          {
-            "type": "book",
-            "title": "How to Render",
-            "author": "Scott Robertson"
-          },
-          {
-            "type": "youtube",
-            "videos": [
-              {
-                "title": "Marco Bucci: Light & Shadow: 10 Minutes to Better Painting",
-                "url": "https://www.youtube.com/watch?v=xcCJ2CU-bFw&t=68s"
-              },
-              {
-                "title": "Marco Bucci: Ambient Occlusion 1 & 2",
-                "url": "https://www.youtube.com/watch?v=7fLV5ezO64w"
-              },
-              {
-                "title": "Proko: Shading Light & Form",
-                "url": "https://www.youtube.com/watch?v=V3WmrWUEIJo"
-              }
-            ]
-          },
-          {
-            "type": "course",
-            "title": "Fundamentals of Light, Sam Nielson",
-            "url": "https://www.schoolism.com/school.php?id=3"
-          },
-          {
-            "type": "challenge",
-            "tasks": [
-              "50 Still-Life Lighting Studies",
-              "Examin lighting in drastically different setups",
-              "Use a lamp and change the position over the subject"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Perspective IV",
-        "resources": [
-          {
-            "type": "youtube",
-            "videos": [
-              {
-                "title": "moderndayjames: Visual Library I",
-                "url": "https://www.youtube.com/watch?v=8FzHV2h29zE"
-              },
-              {
-                "title": "moderndayjames: Visual Library II",
-                "url": "https://www.youtube.com/watch?v=i5QdhXHXzpk"
-              },
-              {
-                "title": "moderndayjames: Vehicle Sketching I",
-                "url": "https://www.youtube.com/watch?v=AXn979hRyIs"
-              },
-              {
-                "title": "moderndayjames: Vehicle Sketching II",
-                "url": "https://www.youtube.com/watch?v=2ivOcwlt9Dc"
-              },
-              {
-                "title": "moderndayjames: Visual Library III - Drawing Mechs",
-                "url": "https://www.youtube.com/watch?v=li2qw57PqZI"
-              }
-            ]
-          },
-          {
-            "type": "book",
-            "title": "Framed Perspective I: Technical Perspective and Visual Storytelling",
-            "author": "Marcos Mateu-Mestre"
-          },
-          {
-            "type": "course",
-            "title": "SVSLearn - Drawing Robots & Machinery",
-            "url": "https://courses.svslearn.com/courses/drawing-robots-and-machinery"
-          },
-          {
-            "type": "course",
-            "title": "Term 6, Mech Design, Cubebrush Artschool",
-            "url": "https://cubebrush.co/mb/products/mmfwyq/art-school"
-          },
-          {
-            "type": "challenge",
-            "tasks": [
-              "100 Rotated Objects (based on mdj's Visual Library videos)",
-              "100 Unique Studies (machinery, vehicles, Plants, Animals)"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Anatomy IV - legs",
-        "resources": [
-          {
-            "type": "course",
-            "title": "Anatomy of the Human Body for Artists (Legs), Proko Premium",
-            "url": "https://www.proko.com/human-anatomy-for-artists/#.XrVW5RNKh24"
-          },
-          {
-            "type": "youtube",
-            "videos": [
-              {
-                "title": "Proko: Legs Anatomy Series",
-                "url": "https://www.youtube.com/watch?v=pDgyQjNFVQk&list=PLtG4P3lq8RHFBeVaruf2JjyQmZJH4__Zv"
-              },
-              {
-                "title": "moderndayjames: Elements of Character",
-                "url": "https://www.youtube.com/watch?v=xGhYfLQWbp0&t=311s"
-              },
-              {
-                "title": "moderndayjames: Anatomy of the Head",
-                "url": "https://www.youtube.com/watch?v=ERc2xnQpCR4"
-              },
-              {
-                "title": "moderndayjames: Sketching the Head II",
-                "url": "https://www.youtube.com/watch?v=enWCcl2fCvw&t=35s"
-              }
-            ]
-          },
-          {
-            "type": "challenge",
-            "tasks": [
-              "100 Feet",
-              "100 Studies of interacting characters - figure drawings of at least 2 figures interacting in a scene"
-            ]
-          }
-        ]
-      }
-    ]
-  }
+  "term": 4,
+  "units": [
+    {
+      "title": "Colour & light I",
+      "resources": [
+        {
+          "type": "book",
+          "title": "How to Render, Scott Robertson",
+          "url": "https://amzn.to/4aKeL2Q"
+        },
+        {
+          "type": "youtube",
+          "videos": [
+            {
+              "title": "Marco Bucci: Light & Shadow: 10 Minutes to Better Painting",
+              "url": "https://www.youtube.com/watch?v=xcCJ2CU-bFw&t=68s"
+            },
+            {
+              "title": "Marco Bucci: Ambient Occlusion 1 & 2",
+              "url": "https://www.youtube.com/watch?v=7fLV5ezO64w"
+            },
+            {
+              "title": "Proko: Shading Light & Form",
+              "url": "https://www.youtube.com/watch?v=V3WmrWUEIJo"
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "title": "Fundamentals of Light, Sam Nielson",
+          "url": "https://www.schoolism.com/school.php?id=3"
+        },
+        {
+          "type": "challenge",
+          "tasks": [
+            "50 Still-Life Lighting Studies",
+            "Examin lighting in drastically different setups",
+            "Use a lamp and change the position over the subject"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Perspective IV",
+      "resources": [
+        {
+          "type": "youtube",
+          "videos": [
+            {
+              "title": "moderndayjames: Visual Library I",
+              "url": "https://www.youtube.com/watch?v=8FzHV2h29zE"
+            },
+            {
+              "title": "moderndayjames: Visual Library II",
+              "url": "https://www.youtube.com/watch?v=i5QdhXHXzpk"
+            },
+            {
+              "title": "moderndayjames: Vehicle Sketching I",
+              "url": "https://www.youtube.com/watch?v=AXn979hRyIs"
+            },
+            {
+              "title": "moderndayjames: Vehicle Sketching II",
+              "url": "https://www.youtube.com/watch?v=2ivOcwlt9Dc"
+            },
+            {
+              "title": "moderndayjames: Visual Library III - Drawing Mechs",
+              "url": "https://www.youtube.com/watch?v=li2qw57PqZI"
+            }
+          ]
+        },
+        {
+          "type": "book",
+          "title": "Framed Perspective I: Technical Drawing and Visual Storytelling, Marcos Mateu-Mestre",
+          "url": "https://amzn.to/4jNgTee"
+        },
+        {
+          "type": "course",
+          "title": "SVSLearn - Drawing Robots & Machinery",
+          "url": "https://courses.svslearn.com/courses/drawing-robots-and-machinery"
+        },
+        {
+          "type": "course",
+          "title": "Term 6, Mech Design, Cubebrush Artschool",
+          "url": "https://cubebrush.co/mb/products/mmfwyq/art-school"
+        },
+        {
+          "type": "challenge",
+          "tasks": [
+            "100 Rotated Objects (based on mdj's Visual Library videos)",
+            "100 Unique Studies (machinery, vehicles, Plants, Animals)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Anatomy IV - legs",
+      "resources": [
+        {
+          "type": "course",
+          "title": "Anatomy of the Human Body for Artists (Legs), Proko Premium",
+          "url": "https://www.proko.com/human-anatomy-for-artists/#.XrVW5RNKh24"
+        },
+        {
+          "type": "youtube",
+          "videos": [
+            {
+              "title": "Proko: Legs Anatomy Series",
+              "url": "https://www.youtube.com/watch?v=pDgyQjNFVQk&list=PLtG4P3lq8RHFBeVaruf2JjyQmZJH4__Zv"
+            },
+            {
+              "title": "moderndayjames: Elements of Character",
+              "url": "https://www.youtube.com/watch?v=xGhYfLQWbp0&t=311s"
+            },
+            {
+              "title": "moderndayjames: Anatomy of the Head",
+              "url": "https://www.youtube.com/watch?v=ERc2xnQpCR4"
+            },
+            {
+              "title": "moderndayjames: Sketching the Head II",
+              "url": "https://www.youtube.com/watch?v=enWCcl2fCvw&t=35s"
+            }
+          ]
+        },
+        {
+          "type": "challenge",
+          "tasks": [
+            "100 Feet",
+            "100 Studies of interacting characters - figure drawings of at least 2 figures interacting in a scene"
+          ]
+        }
+      ]
+    }
+  ]
+}

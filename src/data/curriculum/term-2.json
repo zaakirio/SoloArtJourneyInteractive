@@ -1,125 +1,125 @@
 {
-  "term": 2,
-  "units": [
-      {
-          "title": "Anatomy I - The Head",
-          "resources": [
-              {
-                  "type": "course",
-                  "title": "Understanding & Painting the Head, Marco Bucci",
-                  "url": "https://marcobucciartstore.com/products/understanding-and-painting-the-head"
-              },
-              {
-                  "type": "youtube",
-                  "videos": [
-                      {
-                          "title": "Proko: The Loomis Method",
-                          "url": "https://www.youtube.com/watch?v=wAOldLWIDSM"
-                      },
-                      {
-                          "title": "Proko: Portrait Drawing Fundamentals",
-                          "url": "https://www.youtube.com/watch?v=1EPNYWeEf1U&list=PLR2KBLDDnZz0pHBiiyrqlOB3FU-W5XX1k"
-                      },
-                      {
-                          "title": "Sinix: Anatomy Quick Tips",
-                          "url": "https://www.youtube.com/watch?v=IVbqoy_JEV0&list=PLflflDShjUKH4EfZyf0vuKEuqeqvlV0Qd"
-                      }
-                  ]
-              },
-              {
-                  "type": "course",
-                  "title": "Constructive Head Drawing, Steve Huston",
-                  "url": "https://www.nma.art/courses/constructive-head-drawing/"
-              },
-              {
-                  "type": "course",
-                  "title": "The Frank Reilly Drawing Method, Frank Reilly",
-                  "url": "https://www.nma.art/courses/the-frank-reilly-drawing-method/"
-              },
-              {
-                  "type": "challenge",
-                  "tasks": [
-                      "Ahmed Aldoori's 100 Head Challenge"
-                  ]
-              }
-          ]
-      },
-      {
-          "title": "Perspective II",
-          "resources": [
-              {
-                  "type": "course",
-                  "title": "Drawabox.com Lessons 4-7",
-                  "url": "https://drawabox.com/"
-              },
-              {
-                  "type": "youtube",
-                  "videos": [
-                      {
-                          "title": "moderndayjames: Perspective 1",
-                          "url": "https://www.youtube.com/watch?v=nAlCyQqEZSU&list=PLgKJMTFp_25iQVZ6ItpZKTSN9Yo44YSTs&index=6"
-                      },
-                      {
-                          "title": "moderndayjames: Perspective 2",
-                          "url": "https://www.youtube.com/watch?v=O1tv-6JURJ4&list=PLgKJMTFp_25iQVZ6ItpZKTSN9Yo44YSTs&index=5"
-                      },
-                      {
-                          "title": "moderndayjames: Perspective 6",
-                          "url": "https://www.youtube.com/watch?v=FF8XgTQmoPg&list=PLgKJMTFp_25iQVZ6ItpZKTSN9Yo44YSTs&index=1"
-                      }
-                  ]
-              },
-              {
-                  "type": "challenge",
-                  "tasks": [
-                      "Drawabox.com 100 Treasure Chest Challenge",
-                      "Rotate 50 boxes and 50 cylinders"
-                  ]
-              }
-          ]
-      },
-      {
-          "title": "Anatomy II - The Torso",
-          "resources": [
-              {
-                  "type": "course",
-                  "title": "Anatomy of the Human Body for Artists (Torso), Proko Premium",
-                  "url": "https://www.proko.com/human-anatomy-for-artists/#.XrVW5RNKh24"
-              },
-              {
-                  "type": "youtube",
-                  "videos": [
-                      {
-                          "title": "Proko: Torso Anatomy Series",
-                          "url": "https://www.youtube.com/watch?v=pDgyQjNFVQk&list=PLtG4P3lq8RHFBeVaruf2JjyQmZJH4__Zv"
-                      }
-                  ]
-              },
-              {
-                  "type": "book",
-                  "title": "Figure Drawing for All It's Worth",
-                  "author": "Andrew Loomis"
-              },
-              {
-                  "type": "book",
-                  "title": "FORCE: Dynamic Life Drawing",
-                  "author": "Mike Mattesi"
-              },
-              {
-                  "type": "course",
-                  "title": "Glenn Vilppu or Steve Huston, w/ New Masters Academy",
-                  "url": "https://www.nma.art/learn/search/instructors/"
-              },
-              {
-                  "type": "challenge",
-                  "tasks": [
-                      "100 exaggerated gestures",
-                      "Draw the gesture of a reference",
-                      "Mannequinize it",
-                      "Draw a new exaggerated pose based on mannequin"
-                  ]
-              }
-          ]
-      }
-  ]
+    "term": 2,
+    "units": [
+        {
+            "title": "Anatomy I - The Head",
+            "resources": [
+                {
+                    "type": "course",
+                    "title": "Understanding & Painting the Head, Marco Bucci",
+                    "url": "https://marcobucciartstore.com/products/understanding-and-painting-the-head"
+                },
+                {
+                    "type": "youtube",
+                    "videos": [
+                        {
+                            "title": "Proko: The Loomis Method",
+                            "url": "https://www.youtube.com/watch?v=wAOldLWIDSM"
+                        },
+                        {
+                            "title": "Proko: Portrait Drawing Fundamentals",
+                            "url": "https://www.youtube.com/watch?v=1EPNYWeEf1U&list=PLR2KBLDDnZz0pHBiiyrqlOB3FU-W5XX1k"
+                        },
+                        {
+                            "title": "Sinix: Anatomy Quick Tips",
+                            "url": "https://www.youtube.com/watch?v=IVbqoy_JEV0&list=PLflflDShjUKH4EfZyf0vuKEuqeqvlV0Qd"
+                        }
+                    ]
+                },
+                {
+                    "type": "course",
+                    "title": "Constructive Head Drawing, Steve Huston",
+                    "url": "https://www.nma.art/courses/constructive-head-drawing/"
+                },
+                {
+                    "type": "course",
+                    "title": "The Frank Reilly Drawing Method, Frank Reilly",
+                    "url": "https://www.nma.art/courses/the-frank-reilly-drawing-method/"
+                },
+                {
+                    "type": "challenge",
+                    "tasks": [
+                        "Ahmed Aldoori's 100 Head Challenge"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Perspective II",
+            "resources": [
+                {
+                    "type": "course",
+                    "title": "Drawabox.com Lessons 4-7",
+                    "url": "https://drawabox.com/"
+                },
+                {
+                    "type": "youtube",
+                    "videos": [
+                        {
+                            "title": "moderndayjames: Perspective 1",
+                            "url": "https://www.youtube.com/watch?v=nAlCyQqEZSU&list=PLgKJMTFp_25iQVZ6ItpZKTSN9Yo44YSTs&index=6"
+                        },
+                        {
+                            "title": "moderndayjames: Perspective 2",
+                            "url": "https://www.youtube.com/watch?v=O1tv-6JURJ4&list=PLgKJMTFp_25iQVZ6ItpZKTSN9Yo44YSTs&index=5"
+                        },
+                        {
+                            "title": "moderndayjames: Perspective 6",
+                            "url": "https://www.youtube.com/watch?v=FF8XgTQmoPg&list=PLgKJMTFp_25iQVZ6ItpZKTSN9Yo44YSTs&index=1"
+                        }
+                    ]
+                },
+                {
+                    "type": "challenge",
+                    "tasks": [
+                        "Drawabox.com 100 Treasure Chest Challenge",
+                        "Rotate 50 boxes and 50 cylinders"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Anatomy II - The Torso",
+            "resources": [
+                {
+                    "type": "course",
+                    "title": "Anatomy of the Human Body for Artists (Torso), Proko Premium",
+                    "url": "https://www.proko.com/human-anatomy-for-artists/#.XrVW5RNKh24"
+                },
+                {
+                    "type": "youtube",
+                    "videos": [
+                        {
+                            "title": "Proko: Torso Anatomy Series",
+                            "url": "https://www.youtube.com/watch?v=pDgyQjNFVQk&list=PLtG4P3lq8RHFBeVaruf2JjyQmZJH4__Zv"
+                        }
+                    ]
+                },
+                {
+                    "type": "book",
+                    "title": "Figure drawing for all it's worth, Loomis",
+                    "url": "https://amzn.to/3CPXN6C"
+                },
+                {
+                    "type": "book",
+                    "title": "FORCE: Dynamic Life Drawing, Mike Mattesi",
+                    "url": "https://amzn.to/4jH1mwB"
+                },
+                {
+                    "type": "course",
+                    "title": "Glenn Vilppu or Steve Huston, w/ New Masters Academy",
+                    "url": "https://www.nma.art/learn/search/instructors/"
+                },
+                {
+                    "type": "challenge",
+                    "tasks": [
+                        "100 exaggerated gestures",
+                        "Draw the gesture of a reference",
+                        "Mannequinize it",
+                        "Draw a new exaggerated pose based on mannequin"
+                    ]
+                }
+            ]
+        }
+    ]
 }

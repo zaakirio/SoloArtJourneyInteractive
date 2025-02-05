@@ -2,7 +2,6 @@ type Resource = {
   type: 'course' | 'youtube' | 'book' | 'challenge';
   title?: string;
   url?: string;
-  author?: string;
   videos?: {
     title: string;
     url: string;

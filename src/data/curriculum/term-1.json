@@ -24,8 +24,8 @@
           },
           {
             "type": "book",
-            "title": "Figure drawing for all it's worth",
-            "author": "Andrew Loomis"
+            "title": "Figure drawing for all it's worth, Loomis",
+            "url": "https://amzn.to/3CPXN6C"
           },
           {
             "type": "challenge",
@@ -49,8 +49,8 @@
           },
           {
             "type": "book",
-            "title": "Perspective Made Easy",
-            "author": "Ernest Norling"
+            "title": "Perspective Made Easy, Ernest Norling",
+            "url": "https://amzn.to/4gvYikd"
           },
           {
             "type": "course",
@@ -59,10 +59,9 @@
           },
           {
             "type": "challenge",
-            "title": "Drawabox.com",
             "tasks": [
-              "250 Box Challenge",
-              "250 Cylinder Challenge"
+              "Drawabox.com 250 Box Challenge",
+              "Drawabox.com 250 Cylinder Challenge"
             ]
           }
         ]
@@ -98,8 +97,8 @@
           },
           {
             "type": "book",
-            "title": "Framed Ink",
-            "author": "Marcos Mateu-Mestre"
+            "title": "Framed Ink, Marcos Mateu-Mestre",
+            "url": "https://amzn.to/3WJr61K"
           },
           {
             "type": "challenge",
