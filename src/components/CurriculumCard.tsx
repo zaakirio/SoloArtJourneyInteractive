@@ -1,5 +1,5 @@
 'use client'
-import { useState, useEffect, useRef } from 'react';
+import { useState, useRef } from 'react';
 import { Link, Play } from 'lucide-react';
 // import { termColors } from '@/utils/termColours';
 import { getIcon, getUnitIcon } from '@/utils/helper';
