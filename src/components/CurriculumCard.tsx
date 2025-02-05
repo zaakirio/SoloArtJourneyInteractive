@@ -1,6 +1,6 @@
 'use client'
 import { useState, useEffect, useRef } from 'react';
-import { Link } from 'lucide-react';
+import { Link, Play } from 'lucide-react';
 // import { termColors } from '@/utils/termColours';
 import { getIcon, getUnitIcon } from '@/utils/helper';
 
@@ -23,7 +23,7 @@ const termColors = {
 };
 export const CurriculumCard = ({ termData }: CurriculumCardProps) => {
   const [isExpanded, setIsExpanded] = useState(false);
-  const [completedTasks, setCompletedTasks] = useState<{[key: string]: boolean}>({});
+  // const [completedTasks, setCompletedTasks] = useState<{[key: string]: boolean}>({});
   const colors = termColors[termData.term as keyof typeof termColors];
   
   const containerRef = useRef<HTMLDivElement>(null);
@@ -31,21 +31,21 @@ export const CurriculumCard = ({ termData }: CurriculumCardProps) => {
   const startY = useRef(0);
   const scrollTop = useRef(0);
 
-  useEffect(() => {
-    const savedTasks = localStorage.getItem(`completedTasks-${termData.term}`);
-    if (savedTasks) {
-      setCompletedTasks(JSON.parse(savedTasks));
-    }
-  }, [termData.term]);
+  // useEffect(() => {
+  //   const savedTasks = localStorage.getItem(`completedTasks-${termData.term}`);
+  //   if (savedTasks) {
+  //     setCompletedTasks(JSON.parse(savedTasks));
+  //   }
+  // }, [termData.term]);
 
-  const toggleTask = (taskId: string) => {
-    const newCompletedTasks = {
-      ...completedTasks,
-      [taskId]: !completedTasks[taskId]
-    };
-    setCompletedTasks(newCompletedTasks);
-    localStorage.setItem(`completedTasks-${termData.term}`, JSON.stringify(newCompletedTasks));
-  };
+  // const toggleTask = (taskId: string) => {
+  //   const newCompletedTasks = {
+  //     ...completedTasks,
+  //     [taskId]: !completedTasks[taskId]
+  //   };
+  //   setCompletedTasks(newCompletedTasks);
+  //   localStorage.setItem(`completedTasks-${termData.term}`, JSON.stringify(newCompletedTasks));
+  // };
 
   const handleMouseDown = (e: React.MouseEvent) => {
     isMouseDown.current = true;
@@ -96,7 +96,7 @@ export const CurriculumCard = ({ termData }: CurriculumCardProps) => {
     switch (resource.type) {
       case 'course':
         return (
-          <a href={resource.url} target="_blank" rel="noopener noreferrer" className="inline-flex text-gray-800 font-body hover:shadow-sm transition-shadow duration-200 rounded-lg p-2">
+          <a href={resource.url} target="_blank" rel="noopener noreferrer" className="inline-flex text-gray-800 font-body hover:shadow-sm transition-shadow duration-200 rounded-lg p-1">
             <span className="flex-shrink-0 w-5 h-5 mr-2 mt-0.5"><Link className="w-full h-full" /></span>
             <span className="font-medium">{resource.title}</span>
           </a>
@@ -105,8 +105,8 @@ export const CurriculumCard = ({ termData }: CurriculumCardProps) => {
         return (
           <div className="space-y-2 mt-2">
             {resource.videos!.map((video, vIndex) => (
-              <a key={vIndex} href={video.url} target="_blank" rel="noopener noreferrer" className="inline-flex text-gray-800 font-body hover:shadow-sm transition-shadow duration-200 rounded-lg p-2">
-                <span className="flex-shrink-0 w-5 h-5 mr-2 mt-0.5"><Link className="w-full h-full" /></span>
+              <a key={vIndex} href={video.url} target="_blank" rel="noopener noreferrer" className="inline-flex text-gray-800 font-body hover:shadow-sm transition-shadow duration-200 rounded-lg p-1">
+                <span className="flex-shrink-0 w-5 h-5 mr-2 mt-0.5"><Play className="w-4 h-4" /></span>
                 <span className="font-medium">{video.title}</span>
               </a>
             ))}
@@ -114,9 +114,10 @@ export const CurriculumCard = ({ termData }: CurriculumCardProps) => {
         );
       case 'book':
         return (
-          <div className="font-body font-medium">
-            {resource.title} by {resource.author}
-          </div>
+          <a href={resource.url} target="_blank" rel="noopener noreferrer" className="inline-flex text-gray-800 font-body hover:shadow-sm transition-shadow duration-200 rounded-lg p-1">
+            <span className="flex-shrink-0 w-5 h-5 mr-2 mt-0.5"><Link className="w-full h-full" /></span>
+            <span className="font-medium">{resource.title}</span>
+          </a>
         );
       case 'challenge':
         return (
@@ -135,12 +136,13 @@ export const CurriculumCard = ({ termData }: CurriculumCardProps) => {
                   <li 
                     key={tIndex} 
                     className="flex gap-2 cursor-pointer select-none"
-                    onClick={() => toggleTask(`${resource.title}-${tIndex}`)}
+                    //onClick={() => toggleTask(`${resource.title}-${tIndex}`)}
                   >
                     <span className={`${colors.accent} text-white w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 text-sm`}>
                       {tIndex + 1}
                     </span>
-                    <span className={completedTasks[`${resource.title}-${tIndex}`] ? 'line-through' : ''}>
+                    {/* <span className={completedTasks[`${resource.title}-${tIndex}`] ? 'line-through' : ''}> */}
+                    <span>
                       {task}
                     </span>
                   </li>

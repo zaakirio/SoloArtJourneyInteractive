@@ -6,7 +6,8 @@
       "resources": [
         {
           "type": "book",
-          "title": "FORCE: Animal Drawing, Mike Matessi"
+          "title": "FORCE: Animal Drawing, Mike Matessi",
+          "url":"https://amzn.to/3CpCVTS"
         },
         {
           "type": "course",
@@ -52,7 +53,8 @@
       "resources": [
         {
           "type": "book",
-          "title": "Framed Perspective II, Marcos Mateu-Mestre"
+          "title": "Framed Perspective II, Marcos Mateu-Mestre",
+          "url":"https://amzn.to/4aOAsPn"
         },
         {
           "type": "youtube",
@@ -86,7 +88,8 @@
       "resources": [
         {
           "type": "book",
-          "title": "Colour and Light, James Gurney"
+          "title": "Colour and Light, James Gurney",
+          "url":"https://amzn.to/4jHphft"
         },
         {
           "type": "youtube",

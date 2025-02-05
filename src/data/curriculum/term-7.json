@@ -6,8 +6,8 @@
         "resources": [
           {
             "type": "book",
-            "title": "Figure Drawing: Design & Invention",
-            "author": "Michael Hampton"
+            "title": "Figure Drawing: Design & Invention, Michael Hampton",
+            "url":"https://amzn.to/3WLL37O"
           },
           {
             "type": "youtube",
@@ -32,8 +32,8 @@
           },
           {
             "type": "book",
-            "title": "Constructive Anatomy",
-            "author": "George B. Bridgeman"
+            "title": "Constructive Anatomy, George B. Bridgeman",
+            "url":"https://amzn.to/4hHDMhw"
           },
           {
             "type": "challenge",

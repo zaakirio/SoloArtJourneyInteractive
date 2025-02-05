@@ -2,10 +2,10 @@ import { BookOpen, Youtube, BookmarkCheck, GraduationCap, Pencil, Book, Palette 
 
 export const getIcon = (type: Resource['type']) => {
   switch (type) {
-    case 'book': return <BookOpen className="w-5 h-5" />;
-    case 'youtube': return <Youtube className="w-5 h-5" />;
-    case 'challenge': return <BookmarkCheck className="w-5 h-5" />;
-    case 'course': return <GraduationCap className="w-5 h-5" />;
+    case 'book': return <BookOpen className="w-6 h-6" />;
+    case 'youtube': return <Youtube className="w-6 h-6" />;
+    case 'challenge': return <BookmarkCheck className="w-6 h-6" />;
+    case 'course': return <GraduationCap className="w-6 h-6" />;
     default: return null;
   }
 };
