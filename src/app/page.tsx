@@ -4,6 +4,7 @@ import Image from 'next/image';
 import logo from "../../public/soloartjourney.png";
 
 import { CurriculumGrid } from '@/components/CurriculumCard';
+import { WelcomeModal } from '@/components/WelcomeModal';
 import term1Data from '../data/curriculum/term-1.json';
 import term2Data from '../data/curriculum/term-2.json';
 import term3Data from '../data/curriculum/term-3.json';
@@ -40,6 +41,7 @@ const Home: NextPage = () => {
   return (
     <div className="min-h-screen relative">
       <AnimatedBackground />
+      <WelcomeModal />
       <main className="pt-10 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex justify-center mb-8">
